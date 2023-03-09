@@ -35,7 +35,7 @@ form.addEventListener("submit", function (event) {
   function getTicketMessage(ticketNumber, formulaResult) {
     let message = "Ваше купе # " + formulaResult + ". ";
     if (ticketNumber >= 1 && ticketNumber <= 36) {
-      message += "Розміщення - купе. ";
+      message += "Розміщення - не бокове. ";
     } else if (ticketNumber >= 37 && ticketNumber <= 54) {
       message += "Розміщення - бокове. ";
     }
